@@ -1,0 +1,122 @@
+div#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+align-items: center;
+    margin: auto;
+}
+
+.comprafinal  {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.comprafinaltexto{
+        padding: 10px;
+        
+}
+
+#compraadd{
+    padding-left: 10px;
+        font-weight: bold;
+}
+
+#contenedortexto{
+    width: 100px;
+    color: #d9d9d9;
+    
+}
+#artistadisco{
+    font-size: 40px;
+    
+    
+}
+#titulosdisco{
+        color: #575757;
+        font-size: 22px;
+}
+#portadagrande{
+    width: 500px; 
+    height: 500px;    
+    background-size: contain; 
+    padding: 20px;
+        margin-bottom: 200px;
+}
+#discoA{
+     margin-bottom: 100px;
+}
+#descripciondisco{
+        width: 450px;
+    height: auto;
+   text-align: justify;
+   font: 12px Helvetica,sans-serif;
+   color: #575757;
+   line-height: 16px;
+}
+
+a#back{
+    background-color: #d9d9d9;
+    width: 221px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    height: 22px;
+   
+}
+#back:hover{
+    background-color: #b3b3b3;
+    cursor: pointer;
+    color: white;
+}
+
+#compra{
+        font-size: 20px;
+       height: 22px;
+       border: 1px solid #b3b3b3;
+    width: 221px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+#compra:hover{
+    
+    cursor: pointer;
+    color: #b3b3b3;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+   left:0px;
+}
+
+#new{
+    
+    width: 300px;
+    transform: translateX(300px);
+    position: absolute;
+    background-color: lightgrey;
+    
+    top: 30px;
+    right: 0px;
+    height: 500px;
+    transition: all 0.3s ease-in-out;   
+}
+
+.show{
+     transform: translateX(0px)!important;
+}
+
+main{
+        overflow: hidden;
+    position: relative;
+}

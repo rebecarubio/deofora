@@ -1,0 +1,66 @@
+
+#cuerporeg{
+    margin: auto;
+    padding-bottom: 15px;
+    
+}
+#delete:hover{
+    cursor:pointer;
+    background-color: lightslategray;
+}
+
+#guardarreg:hover{
+    cursor:pointer;
+    background-color: lightslategray;
+    
+}
+#guardarreg{
+    margin-bottom: 15px;
+}
+
+#creacuenta{
+    
+    
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.login_input{
+    width: 285px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#registro{
+    width:  285px;
+    margin: auto;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    margin-bottom: 20px;
+   
+}
+
+#login_registro{
+     width: 285px;
+    height: 50px;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #f0776c;
+    border: 0;
+    border-radius: 5px;
+}
+
+#login_registro:hover{
+    background-color: #b30000;
+    cursor: pointer;
+}

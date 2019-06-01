@@ -1,0 +1,610 @@
+
+
+
+header{
+    width: 100%;
+    background-color: none;
+}
+
+#bienvenido{
+    width: 300px;
+    font-family: 'Inconsolata', monospace;
+}
+
+#cierresesion{
+    text-decoration: none;
+    color: grey;
+}
+
+#navegacion{
+    position: relative;
+    margin-top: 25px;
+}
+.cajacentro{
+        display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+  }
+.gift{
+    
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    transition: all 0.5s;
+    border-radius: 50%;
+    display: block; 
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+     display:flex;
+    flex-direction: column;
+    justify-content: space-between
+    
+}
+
+.container{
+    width: 70%;
+    
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+   
+    
+}
+
+
+
+.social{
+    
+    display: flex;
+    
+    
+    
+}
+
+
+
+.media{
+       width: 25px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: flex-end;
+}
+.media:hover
+{
+    filter: opacity(.5);
+}
+
+#contenedor_logo{
+    width: 15%;
+    margin-left: 20px;
+       
+}
+
+@media (max-width:1024px){
+    
+    .container{
+        width: 85%;
+        
+    }
+    
+    #principal{
+        margin-top: 100px;
+    }
+    
+    #bienvenido{
+            position: absolute;
+    
+    margin-top: 180px;
+    margin-left: 50px;
+    }
+    .cajacentro{
+        justify-content: center;
+    }
+    #contenedor_logo{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .menulista{
+        width:100%;
+        justify-content: center;
+        
+    }
+    #linklogo{
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .social{
+      
+      display:flex;
+     
+
+            }
+    .menu{
+        width: 100%;
+    }
+    .gift{
+        margin:auto;
+        
+    }
+    
+    .containercolumnas{
+        
+        flex-wrap:wrap;
+    }
+    
+    main .columna1{
+        width:50%;
+    }
+    main .columna2{
+        width:50%;
+    }
+    main .columna3{
+        width:35%;
+    }
+    main .columna4{
+        width:65%;
+    }
+}
+
+#logo:hover{
+    filter: invert(100%);
+   
+    }
+
+.menu{
+
+  
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.productos{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    display: block;
+    background-color: #2E2E2E;
+    font-size: 1.5rem;
+    color: white;
+    overflow: auto;
+}
+
+
+.menulinks{
+    color: black;
+    background-color:  white;
+    text-decoration: none;
+    text-align: right;
+    font-size: 20px;
+    padding: 20px 0px 20px 40px;
+    border-top: solid black 3px;
+    margin-right: 30px;
+    display: block;
+    
+
+}
+
+.menulinks:hover{
+    color: red;
+    cursor: pointer;
+    border-top: 3px solid red;
+    transition: all 0.3s;
+}
+
+ 
+.menulista{
+    list-style: none;
+    width: 80%;
+    display: flex;
+
+}
+
+.cajabuscador{
+    width: 350px;
+    
+}
+.buscador{
+    border: solid 1px black;
+    width: 20%;
+    height: 30px;
+    float: left;
+    
+}
+
+#lupa{
+    width: 25px;
+    margin-left: 10px;
+    float:left;
+    }
+#carrito{
+        width: 25px;
+        margin-left: 10px; 
+    }
+    .containerbody{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        
+    }
+    .containercolumnas{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+        flex-wrap: wrap;
+        
+        
+    }
+    .columna1{
+        width: 20%;
+        border: none;
+        overflow: hidden;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    .columna2{
+        width: 20%;
+        border: none;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+                       
+    .columna3{
+        width: 20%;
+        border: none;
+        overflow: hidden;
+        float: left; 
+        flex-wrap: wrap;
+       
+    }
+    
+    .columna4{
+        width: 38%;
+        border: none;
+        overflow: hidden;
+        float: left; 
+        flex-wrap: wrap;
+        }
+        
+    .novedad1{
+        position: relative;
+        width: 100%;
+        padding: 0;
+      }
+      
+      .novedad-header{
+          
+          white-space: nowrap; 
+          color: black;
+          font-size: 15px;
+          position: absolute;
+          overflow: hidden;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          
+      }
+      .overlaynovedad1{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+      }
+      .Novedad1:hover .overlaynovedad1 {
+        height: 100%;
+       }
+      
+
+    .vertigoLP{
+        width: 100%;
+        transition: all 0.5s;
+       
+        
+     }
+      
+  .containercrosta {
+     position: relative;
+     width: 100%;
+     padding: 0;
+  
+}
+
+.crostaLP {
+  
+  width: 100%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  
+  
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.containercrosta:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+  .Novedad3 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  
+}
+
+.mentiraEP {
+  
+  width: 100%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  
+  
+  
+}
+
+.mentiraoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.Novedad3:hover .mentiraoverlay {
+  height: 100%;
+}
+
+.texto3 {
+  white-space: nowrap; 
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+ 
+  }
+
+  #playlist{
+      
+      width: 100%;
+      height: 40%;
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  #videorakta{
+      width: 100%;
+      
+      
+      height: 40%;
+      
+      
+  }
+      
+  .informacion{
+      background-color: black;
+      width: 100%;
+      height: 80px;
+      bottom: 0;
+  }
+  
+  .direccion{
+      
+  }
+  
+  .textofooter{
+      color: white;
+      font-size: 15px;
+      display: flex;
+      justify-content: center; 
+      padding-top: 20px;
+  }
+  
+  .buracotape{
+      width: 100%;
+      height: auto;
+      display:flex;
+      justify-content: center;
+      padding-top: 10px;
+          
+  }
+  
+  .raktaEP{
+      width: 100%;
+      height: auto;
+      display:flex;
+      justify-content: center;
+      padding-top: 10px;
+  }
+  
+  .rakta3{
+      width: 100%;
+      height: auto;
+      display:flex;
+      justify-content: center;
+      padding-top: 10px;
+  }
+  .laura{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+
+  }
+  
+  .laura:hover{
+      filter: opacity(.5);
+  }
+  
+  .imagenraktadisco{
+      width: 55%;
+      height: auto;
+      display:flex;
+      justify-content: center;
+      margin-left: 50px;
+      padding-top: 10px;
+  }
+  
+  .buraco{
+      position: relative;
+        width: 100%;
+        padding: 0;
+  }
+  .novedad-buraco{
+          
+          white-space: nowrap; 
+          color: black;
+          font-size: 15px;
+          position: absolute;
+          overflow: hidden;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          
+      }
+      .overlayburaco{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+      }
+      .buraco:hover .overlayburaco {
+        height: 100%;
+       }
+       
+       .item1{
+           width: 26%;
+           background-color: transparent;
+           border: none;
+           overflow: hidden;
+           flex-wrap: wrap;
+           float:left;      
+       }
+       
+       .menucompravertigo{
+           list-style: none;
+                 
+         }
+       #infovertigo{
+           font-size: 20px;
+           font-style: bold;
+                   
+       }
+           
+                      
+       #linkcompravertigo{
+           text-decoration: none;
+           color: black;
+           font-size: 25px;
+       }
+       
+       
+       
+       #linkcompravertigo:hover {
+           color: red;
+           cursor: pointer;
+           transition: all 0.3s;
+       }
+       .item2{
+           width: 34%;
+           background-color: transparent;
+           border: none;
+           overflow: hidden;
+           flex-wrap: wrap;
+               
+       }
+       
+       #logover{
+           width: 100%;
+       }
+       
+       #tapevertigo{
+           width: 45%;
+           position: relative;
+       }
+       
+       #vertigo2{
+           width: 45%;
+       }
+       
+       .item3{
+           width: 40%;
+           background-color: transparent;
+           border: none;
+           overflow: hidden;
+           flex-wrap: wrap;
+       }
+       
+       #grupofoto{
+           width:100%;
+            }
+        #infovertigotexto{
+            padding-bottom: 20px;
+            font-size: 15px;
+            text-align: justify; 
+                
+            }
+            
+            .inputs_footer{
+                text-decoration: none;
+                color: white;
+            }

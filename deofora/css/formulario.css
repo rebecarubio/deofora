@@ -1,0 +1,98 @@
+
+
+form{
+    
+    width: 100%;
+
+}
+
+#containerform{
+    width: 20%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    margin-bottom: 20px;
+   
+}
+
+.registrotexto{
+    text-align: justify;
+}
+
+#button_entrar{
+    margin-bottom: 10PX;
+    margin-top: 10px;
+}
+
+
+
+#user{
+    width: 285px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#pass{
+    width: 285px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#entrar{
+    width: 285px;
+    height: 50px;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #f0776c;
+    border: 0;
+    border-radius: 5px;
+}
+
+#entrar:hover{
+    cursor:pointer;
+    background-color: #b30000;
+}
+
+#button_registro{
+    width: 285px;
+    height: 50px;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #f0776c;
+    border: 0;
+    border-radius: 5px;
+}
+
+#button_registro:hover{
+    background-color: #b30000;
+    cursor: pointer;
+}
+#frase{
+        text-align: center;
+}
+
+#recuperacion{
+    text-decoration: none;
+    color:black;
+}
+
+#recuperacion:hover{
+    color:grey;
+}
